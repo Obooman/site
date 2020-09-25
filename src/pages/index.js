@@ -1,5 +1,10 @@
 import React from "react"
+import "./index.module.css"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <article>
+      <h1>WELCOME</h1>
+    </article>
+  )
 }
