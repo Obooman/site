@@ -6,7 +6,7 @@ const PostLink = ({ post }) => {
   return (
     <div className={styles.link}>
       <Link to={post.frontmatter.slug}>{post.frontmatter.title}</Link>
-      <p>Publish in {post.frontmatter.date}</p>
+      <p className={styles.subtitle}>Published in {post.frontmatter.date} </p>
       <p>{post.excerpt}</p>
     </div>
   )

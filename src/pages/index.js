@@ -40,6 +40,9 @@ export const pageQuery = graphql`
         node {
           id
           excerpt(pruneLength: 250)
+          wordCount {
+            words
+          }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug

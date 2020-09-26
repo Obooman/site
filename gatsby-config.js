@@ -1,4 +1,8 @@
 module.exports = {
+  siteMetadata: {
+    title: `OBOO CHENG`,
+    siteUrl: `https://obooman.github.io/site/`,
+  },
   plugins: [
     {
       resolve: `gatsby-transformer-remark`,
@@ -45,6 +49,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-dark-mode`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Montserrat`, `Merriweather`],
+        display: "swap",
+      },
+    },
   ],
   pathPrefix: "/site",
 }

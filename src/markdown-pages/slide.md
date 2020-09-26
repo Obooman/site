@@ -1,7 +1,7 @@
 ---
 slug: "/slide"
-date: "2019-05-14"
-title: "My Slide"
+date: "2020-03-14"
+title: "Take snapshot of camera stream to mock local media"
 ---
 
 ## Schema Definition

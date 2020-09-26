@@ -3,7 +3,7 @@ import React from "react"
 export default () => (
   <div
     style={{
-      height: 300,
+      height: 100,
     }}
   ></div>
 )
