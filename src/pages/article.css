@@ -1,0 +1,73 @@
+p,
+li {
+  font-family: var(--article-font);
+  color: var(--reverse-color);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+  color: var(--reverse-color);
+}
+
+article > h1 {
+  font-size: 40px;
+}
+
+li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid var(--primary-color);
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+/* Code highlight */
+.gatsby-highlight-code-line {
+  background-color: #feb;
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #f99;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #23232b;
+  font-family: Source Code Pro;
+  font-size: 14px;
+}
+
+:not(pre) > code[class*="language-"] {
+  background-color: var(--secondary-grey);
+  color: var(--secondary-color);
+  padding: 4px 10px;
+  display: inline-block;
+}

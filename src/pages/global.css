@@ -1,0 +1,31 @@
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+body {
+  --primary-color: #13b3c5;
+  --secondary-color: #222222;
+  --secondary-grey: #eaeaea;
+  --title-font: Montserrat;
+  --article-font: merriweather;
+  --theme-color: #fbfbfb;
+  --reverse-color: #0f0f0f;
+  --break-point: 700px;
+}
+
+body.dark {
+  --primary-color: #21c6d8;
+  --secondary-color: #e6e6e6;
+  --secondary-grey: #23232b;
+  --article-font: Merriweather;
+  --theme-color: #18181f;
+  --reverse-color: #bfc7d8;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

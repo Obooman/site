@@ -1,0 +1,9 @@
+.link {
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link a {
+  text-decoration: none;
+}

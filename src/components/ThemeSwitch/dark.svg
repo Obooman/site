@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-176.000000, -69.000000)" fill="#13B3C5">
+            <path d="M183,69 C183.676403,69 184.330399,69.0959376 184.949122,69.2749478 C183.227323,69.9071381 182,71.5602407 182,73.5 C182,75.9852814 184.014719,78 186.5,78 C187.908404,78 189.165689,77.3529795 189.990828,76.3399645 C189.81469,80.0479474 186.752089,83 183,83 C179.134007,83 176,79.8659932 176,76 C176,72.1340068 179.134007,69 183,69 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

@@ -1,3 +1,23 @@
-html {
-  font-family: Times;
+.container {
+  background-color: var(--theme-color);
+  min-height: 100%;
+  padding: 0 20px;
+}
+
+.content {
+  width: var(--break-point);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.header {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
 }
